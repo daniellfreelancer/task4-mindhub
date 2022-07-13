@@ -1,0 +1,667 @@
+
+html {
+    font-size: 62,5%;
+    /* 1rem = 10px */
+    /* background-color: #F2F5F5; */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+/* Index styles */
+
+.img-logo {
+    width: 11rem ;
+}
+
+.container-header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    /* background-color: #154c79; */
+    text-shadow: 0 0 5px #154c79;
+    padding: 0px 50px;
+}
+
+.nav-item{
+    font-size: large;
+    letter-spacing: 2px;
+    font-family: 'Passion One', cursive;
+    color: #f7dd2e;
+    font-weight: 900;
+}
+
+.container-img{
+    width: 100%;
+    background-image: url(../assets/img/hockey1.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    flex-direction: column-reverse;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.container-events{
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    background-color: #154c79;
+    padding: 5px 0px;
+    color: #f5f5f5;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 3px;
+}
+
+.nav-list{
+display: flex;
+align-items: center;
+gap: 0px 50px;
+}
+
+.parallelogram-right{
+    height: 40px;
+    transform: skew(-10deg);
+    background: #154c79;
+    display: flex;
+    align-items: center;
+}
+
+.parallelogram-left{
+    height: 40px;
+    transform: skew(10deg);
+    background: #154c79;;
+    display: flex;
+    align-items: center;
+}
+
+.parallelogram-right:hover{
+    height: 40px;
+    transform: skew(-10deg);
+    background: #f7dd2e;;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:hover{
+    color: #154c79;
+    transform: scale(1.3);
+}
+
+.parallelogram-left:hover{
+    height: 40px;
+    transform: skew(10deg);
+    background: #f7dd2e;;
+    display: flex;
+    align-items: center;
+}
+
+.container-title{
+    text-align: center;
+    background-color: #154c79;
+    padding: 7px 10px;
+}
+
+.container-main{
+    background-image: url(../assets/img/backHtml.jpg);
+    background-size: cover;
+}
+
+.img-card{
+    background-image: url(../assets/img/design1_image1.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    border-radius: 5px;
+}
+
+.img-card-1{
+    background-image: url(../assets/img/news1.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+.img-card-2{
+    background-image: url(../assets/img/news2.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+.img-card-3{
+    background-image: url(../assets/img/news3.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    border-radius: 5px;
+}
+.img-card-4{
+    background-image: url(../assets/img/news4.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+.img-card-5{
+    background-image: url(../assets/img/news5.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+.img-card-6{
+    background-image: url(../assets/img/news6.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.img-card-7{
+    background-image: url(../assets/img/news7.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.img-card-8{
+    background-image: url(../assets/img/news8.jpg);
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.t-events{
+    align-self:end;
+    padding: 2px 2px;
+    background-color:#154c79;
+    
+}
+.p-events {
+    padding: 10px 2px;
+    color:#F2F5F5;
+    font-size: large;
+    text-align: justify;
+}
+
+.container-events{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    flex-wrap: wrap;
+}
+
+.article{
+    background-color:#154c796c;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article:hover{
+    transform: scale(0.99);
+    opacity: 80%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #154c79;
+}
+
+footer div {
+    text-align: center;
+    display: flex;
+    padding: 10px 10px;
+}
+
+footer div h3,p{
+    padding: 0px 10px;
+    color: #f5f5f5;
+}
+
+
+/* Styles About MDHL */
+
+.container-main-about{
+    background-image: url(../assets/img/backAbout.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.container-about{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10%;
+    justify-content: center;
+}
+.container-img-about{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.img-about{
+    width: 35%;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.img-about:hover{
+    transform: scale(0.99);
+}
+
+.container-img-2{
+    width: 100%;
+    background-image: url(../assets/img/hockey2.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.p-about{
+    color: black;
+}
+
+/* Styles Contact */
+
+.container-img-3{
+    width: 100%;
+    background-image: url(../assets/img/hockey3.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container-contact{
+    background-color: #F2F5F5;
+}
+
+/* Styles Game info */
+
+.container-img-4{
+    width: 100%;
+    background-image: url(../assets/img/game-info.png);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0px -200px;
+}
+
+.tg  {
+    border: none;
+    text-align: center;
+}
+.tg td{
+    border:none;
+    font-family:Arial, 
+    sans-serif;
+    font-size:16px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{
+    border: none;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.container-info{
+    background-color: #F2F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 20%
+}
+
+.container-detail-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #154c79;
+    border-radius: 30px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+.container-detail-info p {
+    margin: 10px 0px ;
+    color: black;
+    font-size: 18px;
+}
+
+.container-detail-info span{
+    font-weight: bold;
+}
+
+.caption-title{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+}
+.info-contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.info-contact span{
+    font-weight: bold;
+}
+
+.phone {
+    color: black;
+}
+
+#mail{
+text-decoration: none;
+color: black;
+
+}
+/* Rules Style */
+.container-img-5{
+    width: 100%;
+    background-image: url(../assets/img/rules.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.rules-subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-rules {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20%;
+
+}
+
+.p-rules{
+    color: black;
+    text-align: justify;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.title-be{
+    padding: 20px 0px;
+}
+
+
+.no-disc {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.disc {
+    list-style-type: circle;
+    margin-left: 35px;
+}
+
+.subtitle-list {
+    font-weight: bold;
+}
+
+ol li {
+    margin: 15px 0px;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+.pc-img{
+    font-size: 50px;
+}
+
+/* Styles Registration */
+
+.container-img-form{
+    width: 100%;
+    background-image: url(../assets/img/formImg.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0px -200px;
+}
+
+.registration-form{
+    /* width: 600px; */
+    display: flex;
+    justify-content: center;
+}
+
+.form-reg{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    width:45%;
+    margin: 20px 0px;
+    padding: 20px 20px;
+    text-align: justify;
+    background-color: #3276ad;
+    border-radius: 30px;
+}
+
+label{
+    font-size: larger;
+}
+
+.form-name{
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    justify-content: space-between;
+}
+
+.input-name{
+    width: 250px;
+}
+
+.street-address {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-address{
+    width: 85%;
+}
+
+.contract-img {
+    width: 170px;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.form-grade{
+    padding: 0px 0px 10px 0px;
+}
+.form-grade input{
+    margin-left: 5px;
+}
+
+.form-city{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+}
+.city{
+    width: 350px;
+}
+.zip{
+    width: 250px;
+}
+
+.form-birth{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.gender-box{
+    width: 300px;
+}
+
+.grade-1th{
+    padding-left: 50px;
+}
+.sub-school{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+fieldset{
+    border: none;
+}
+.container-school{
+    margin-bottom: 30px;
+}
+.title-school{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.select-school{
+    width: 300px;
+}
+.select-school option {
+    font-size: 20px;
+}
+
+.signature, .date-signature {
+    display: table-row;
+    
+}
+
+.signature input {
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.submit-button{
+    width: 200px;
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #154c79;
+    color: #f7dd2e;
+    border: none;
+    padding: 10px 0px;
+    font-family: 'Passion One', cursive;
+    cursor:pointer;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}
+
+.submit-button:hover {
+    font-weight: bold;
+    color: #154c79;
+    background-color: #f7dd2e;
+}
+
+.sub-position{
+    margin-bottom: 10px;
+}
+
+.position-box{
+    display: flex;
+    flex-direction: column;
+}
+.position-box-left{
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.position-box-right{
+    margin-bottom: 5px;
+    font-size: larger;
+}
+.midfield-box{
+    margin-left: 50px;
+}
+
+.goalkeeper-box{
+    margin-left: 56px;
+}
+
+.uniform{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.uni-row {
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.uni-right{
+    margin-left: 40px;
+}
+.uni-right-l {
+    margin-left: 19px;
+}
+.uni-right-e {
+    margin-left: 36px;
+}
+
+.permission {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.permission-section p {
+   margin-left: 0px;
+   font-size: large;
+   color: black;
+}
