@@ -2,7 +2,7 @@
 html {
     font-size: 62,5%;
     /* 1rem = 10px */
-    /* background-color: #F2F5F5; */
+    background-color: #F2F5F5;
 }
 
 *{
@@ -126,88 +126,50 @@ gap: 0px 50px;
     background-image: url(../assets/img/backHtml.jpg);
     background-size: cover;
 }
-
-.img-card{
-    background-image: url(../assets/img/design1_image1.jpg);
+.card{
     width: 350px;
     height: 600px;
     background-size: cover;
     display: flex;
     border-radius: 5px;
+}
+
+.img-card{
+    background-image: url(../assets/img/design1_image1.jpg);
 }
 
 .img-card-1{
     background-image: url(../assets/img/news1.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 .img-card-2{
     background-image: url(../assets/img/news2.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 .img-card-3{
     background-image: url(../assets/img/news3.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
-    display: flex;
-    border-radius: 5px;
 }
 .img-card-4{
     background-image: url(../assets/img/news4.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 .img-card-5{
     background-image: url(../assets/img/news5.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 .img-card-6{
     background-image: url(../assets/img/news6.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 
 .img-card-7{
     background-image: url(../assets/img/news7.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 
 .img-card-8{
     background-image: url(../assets/img/news8.jpg);
-    width: 350px;
-    height: 600px;
-    background-size: cover;
     background-position: center;
-    display: flex;
-    border-radius: 5px;
 }
 
 .t-events{
@@ -231,7 +193,7 @@ gap: 0px 50px;
 }
 
 .article{
-    background-color:#154c796c;
+    background-color:#154c79;
     padding: 20px 20px;
     border-radius: 5px;
     margin: 20px 0px;
@@ -241,7 +203,7 @@ gap: 0px 50px;
 
 .article:hover{
     transform: scale(0.99);
-    opacity: 80%;
+    opacity: 90%;
 }
 
 footer{
@@ -260,7 +222,6 @@ footer div h3,p{
     padding: 0px 10px;
     color: #f5f5f5;
 }
-
 
 /* Styles About MDHL */
 
@@ -316,6 +277,13 @@ footer div h3,p{
 }
 .container-contact{
     background-color: #F2F5F5;
+}
+.container-contact-info{
+    display: flex;
+    justify-content: center;
+}
+.contact-area{
+    width: 700px;
 }
 
 /* Styles Game info */
@@ -402,8 +370,8 @@ footer div h3,p{
 #mail{
 text-decoration: none;
 color: black;
-
 }
+
 /* Rules Style */
 .container-img-5{
     width: 100%;
@@ -413,7 +381,6 @@ color: black;
     background-size:cover;
     background-position: center;
 }
-
 
 .rules-subtitle {
     text-align: center;
@@ -479,7 +446,6 @@ ul li {
 }
 
 .registration-form{
-    /* width: 600px; */
     display: flex;
     justify-content: center;
 }
@@ -580,7 +546,6 @@ fieldset{
 
 .signature, .date-signature {
     display: table-row;
-    
 }
 
 .signature input {
@@ -588,6 +553,7 @@ fieldset{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .submit-button{
     width: 200px;
     align-self: center;
